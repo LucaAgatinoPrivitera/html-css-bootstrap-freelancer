@@ -14,7 +14,7 @@
     <header class="bg-primary">
         <div class="container d-flex text-light justify-content-between align-items-center bg-primary py-2">
             <h2 class="marchio">START BOOTSTRAP</h2>
-            <div class="d-flex justify-content-around p-2 align-items-center text-light .text-decoration-none a_light a_text-decoration-none">
+            <div class="d-flex justify-content-around p-2 align-items-center text-light .text-decoration-none a_light a_text-decoration-none sm_not">
                 <a class="px-2">PORTFOLIO</a>
                 <a class="px-2">ABOUT</a>
                 <a class="px-2">CONTACT</a>
@@ -27,7 +27,9 @@
         <div class="container-flui p-0">
             <section class="bg-success m-auto py-4">
                 <div class="container m-auto text-light text-center">
-                    <img class="rounded-circle p-3" src="https://picsum.photos/200" alt="123">
+                    <div>
+                        <img class="rounded-circle p-3 w-25" src="./img/avatar.svg" alt="123">
+                    </div>
                     <h2>START BOOTSTRAP</h2>
 
                     <div class="d-flex justify-content-center p-3">
@@ -50,23 +52,23 @@
                     </div>
 
                     <div class="row my-2 flex-wrap">
-                        <div class="col-lg-4 mb-4">
-                            <img class="w-100" src="https://picsum.photos/200" alt="">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <img class="w-100 rounded-3" src="./img/cabin.png" alt="">
                         </div>
-                        <div class="col-lg-4 mb-4">
-                            <img class="w-100" src="https://picsum.photos/200" alt="">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <img class="w-100 rounded-3" src="/img/cake.png" alt="">
                         </div>
-                        <div class="col-lg-4 mb-4">
-                            <img class="w-100" src="https://picsum.photos/200" alt="">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <img class="w-100 rounded-3" src="/img/circus.png" alt="">
                         </div>
-                        <div class="col-lg-4 mb-4">
-                            <img class="w-100" src="https://picsum.photos/200" alt="">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <img class="w-100 rounded-3" src="/img/game.png" alt="">
                         </div>
-                        <div class="col-lg-4 mb-4">
-                            <img class="w-100" src="https://picsum.photos/200" alt="">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <img class="w-100 rounded-3" src="/img/safe.png" alt="">
                         </div>
-                        <div class="col-lg-4 mb-4">
-                            <img class="w-100" src="https://picsum.photos/200" alt="">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <img class="w-100 rounded-3" src="/img/submarine.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -82,12 +84,12 @@
                     </div>
 
                     <div class="d-flex row">
-                        <p class="col-sm-12 col-lg-6 px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in totam explicabo aspernatur suscipit officiis possimus deleniti hic libero optio, consequuntur aperiam animi aut, esse unde, odio dolores praesentium nihil.
+                        <p class="col-sm-12 col-lg-6 col-md-6 px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in totam explicabo aspernatur suscipit officiis possimus deleniti hic libero optio, consequuntur aperiam animi aut, esse unde, odio dolores praesentium nihil.
                         Veritatis in minus rem asperiores dicta iusto vitae aperiam molestiae maiores minima illum dolore, nisi tempora sed, laborum voluptates! Illo, accusantium! Tenetur nemo ipsum sed aspernatur quod quia, labore architecto.
                         Magnam numquam molestias harum similique pariatur, obcaecati officia alias minus ipsa in eius debitis exercitationem atque totam hic, quidem provident aspernatur laborum molestiae sit, nostrum maiores maxime odio doloribus. Inventore!</p>
-                        <p class="col-sm-12 col-lg-6 px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus odio sint, eligendi sit ipsa magni soluta reprehenderit, unde excepturi aliquid quaerat minus illo facilis cupiditate maxime impedit numquam optio.
+                        <p class="col-sm-12 col-lg-6 col-md-6 px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus odio sint, eligendi sit ipsa magni soluta reprehenderit, unde excepturi aliquid quaerat minus illo facilis cupiditate maxime impedit numquam optio.
                         Assumenda nulla magnam voluptates veniam distinctio totam aut iusto eaque. Reiciendis repudiandae facilis vero? Veritatis rem, perferendis eveniet voluptas esse laborum eaque porro sed accusantium adipisci temporibus sit provident soluta!</p>
-                        <button type="button" class="btn text-center w-unset border border-white text-white w_15 my-1 m-auto">Download</button>
+                        <button type="button" class="btn text-center w-unset border border-white text-white w_15 my-1 m-auto d-flex w-25 text-center"><i class="fa-solid fa-download me-2"></i>Download</button>
                     </div>
                     <!-- <button type="button" class="btn btn-primary text-center">Download</button> old per non dimenticarlo -->
                 </div>
@@ -115,7 +117,7 @@
                     </div>
 
                     <div class="input-group mb-3">
-                        <textarea class="button_transparent_bg align-top w-100 h_10 ps-2" type="text" class="form-control button_transparent_bg" placeholder="Message"></textarea>
+                        <textarea type="text" class="button_transparent_bg align-top w-100 h_10 ps-2 form-control button_transparent_bg" placeholder="Message"></textarea>
                     </div>
 
                     <button type="button" class="button_transparent_bg btn btn-success">Send</button>
@@ -133,10 +135,24 @@
 
                     <div class="col-lg-4 d-flex flex-column text-center">
                         <h3>AROUND THE WEB</h3>
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                        <i></i>
+                        <div class="w-75 d-flex justify-content-around mx-auto my-2" id="footer_icon">
+                            <div class="bg-primary border p-2 rounded-circle icon_div">
+                                <i class="fa-solid fa-house m-auto text-center"></i>
+                            </div>
+                            
+                            <div class="bg-primary border p-2 rounded-circle icon_div">
+                                <i class="fa-solid fa-house m-auto text-center"></i>
+                            </div>
+                                                        
+                            <div class="bg-primary border p-2 rounded-circle icon_div">
+                                <i class="fa-solid fa-house m-auto text-center"></i>
+                            </div>
+                                                        
+                            <div class="bg-primary border p-2 rounded-circle icon_div">
+                                <i class="fa-solid fa-house m-auto text-center"></i>
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="col-lg-4 d-flex flex-column text-center">
@@ -145,7 +161,7 @@
                     </div>
                 </div>
 
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vitae.</p>
+                <p class="text-center pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vitae.</p>
             </div>
         </section>
     </footer>

@@ -27,3 +27,27 @@
     border-left: transparent;
     border-radius: 0;
 }
+
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+@media screen and (max-width: 576px){
+    .sm_not{
+        display: none;
+    }
+
+    footer section div.container div{
+        display: block !important;
+        margin-bottom: 2rem !important;
+    }
+    #footer_icon{
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 2rem !important;
+    }
+    #footer_icon *{
+        margin: 0 0.2rem !important;
+    }
+}
