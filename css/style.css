@@ -40,6 +40,35 @@ nav *{
     height: 2.5rem;
 }
 
+@media screen and (max-width: 976px){
+    #footer_icon{
+        width: 25% !important;
+    }
+}
+@media screen and (max-width: 768px){
+    nav a{
+        margin: 0 !important;
+    }
+    nav div{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    footer section div.container div{
+        display: block !important;
+        margin-bottom: 2rem !important;
+    }
+    #footer_icon{
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 2rem !important;
+        width: 25% !important;
+    }
+    #footer_icon *{
+        margin: 0 0.2rem !important;
+    }
+}
+
 @media screen and (max-width: 576px){
     .sm_not{
         display: none !important;
