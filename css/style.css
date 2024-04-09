@@ -1,3 +1,29 @@
+.a_light *{
+    color: white;
+}
+.a_text-decoration-none *{
+    text-decoration: none;
+}
+
 .h_10{
     height: 10rem;
+}
+.w_15{
+    width: 15%;
+}
+
+.hr_dark{
+    border: 2px solid rgb(19, 19, 19);
+    opacity: 1;
+}
+.hr_light{
+    border: 2px solid rgb(240, 240, 240);
+    opacity: 1;
+}
+
+.button_transparent_bg{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-radius: 0;
 }
