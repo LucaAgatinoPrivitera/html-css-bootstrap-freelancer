@@ -39,6 +39,9 @@ nav *{
     width: 2.5rem;
     height: 2.5rem;
 }
+.dne-block{
+    display: inline-block;
+}
 
 @media screen and (max-width: 976px){
     #footer_icon{
