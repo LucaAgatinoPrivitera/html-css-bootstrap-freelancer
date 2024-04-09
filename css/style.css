@@ -1,3 +1,10 @@
+.sm_yes{
+    display: none !important;
+}
+nav *{
+    margin: 0 1rem ;
+}
+
 .a_light *{
     color: white;
 }
@@ -35,7 +42,10 @@
 
 @media screen and (max-width: 576px){
     .sm_not{
-        display: none;
+        display: none !important;
+    }
+    .sm_yes{
+        display: block !important;
     }
 
     footer section div.container div{
