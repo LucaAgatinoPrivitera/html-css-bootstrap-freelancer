@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>html-css-bootstrap-freelancer</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css">
   <script src="https://kit.fontawesome.com/ee64cb3605.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -35,7 +35,7 @@
     <nav class="navbar navbar-light d-flex justify-content-between container text-light justify-content-between align-items-center bg-primary py-2">
         <div class="container-fluid">
           <a class="navbar-brand marchio text-light" href="#">START BOOTSTRAP</a>
-          <div class="sm_yes">
+          <div class="d-flex d-md-none">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-light"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -52,7 +52,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="d-flex justify-content-around py-2 m-0 align-items-center text-light .text-decoration-none a_light a_text-decoration-none sm_not">
+            <div class="d-none d-md-flex justify-content-around py-2 m-0 align-items-center text-light .text-decoration-none a_light a_text-decoration-none sm_not">
                 <a class="m-0 me-2">PORTFOLIO</a>
                 <a class="m-0 mx-2">ABOUT</a>
                 <a class="m-0 ms-2">CONTACT</a>
@@ -179,24 +179,17 @@
 
                         <div class="col-lg-4 col-sm-12 d-flex flex-column text-center">
                             <h3>AROUND THE WEB</h3>
-                            <div class="w-75 d-flex justify-content-around mx-auto my-2" id="footer_icon">
-                                <div class="bg-primary border p-2 rounded-circle icon_div">
-                                    <i class="fa-solid fa-house m-auto text-center"></i>
-                                </div>
-                                
-                                <div class="bg-primary border p-2 rounded-circle icon_div">
-                                    <i class="fa-solid fa-house m-auto text-center"></i>
-                                </div>
-                                                            
-                                <div class="bg-primary border p-2 rounded-circle icon_div">
-                                    <i class="fa-solid fa-house m-auto text-center"></i>
-                                </div>
-                                                            
-                                <div class="bg-primary border p-2 rounded-circle icon_div">
-                                    <i class="fa-solid fa-house m-auto text-center"></i>
-                                </div>
+                            <div class="mx-auto my-2" id="footer_icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-google-plus-g"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
                             </div>
-
+                            <!-- Esempio visto a lezione
+                            <div>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            -->
 
                     </div>
 
