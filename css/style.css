@@ -79,6 +79,9 @@ nav *{
     .sm_yes{
         display: block !important;
     }
+    .marchio{
+        margin-left: 1rem !important;
+    }
 
     footer section div.container div{
         display: block !important;
